@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ejercicio 3 Repaso Examen Extra</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="equipo_local">EQUIPO LOCAL</string>
+    <string name="goles">GOLES:</string>
+    <string name="equipo_visitante">EQUIPO VISITANTE</string>
+    <string name="resumen">RESUMEN:</string>
+</resources>

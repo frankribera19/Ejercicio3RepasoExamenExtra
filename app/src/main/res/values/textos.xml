@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="equipos">
+        <item> </item>
+        <item>Valencia CF</item>
+        <item>Barcelona</item>
+        <item>Real Madrid</item>
+        <item>Atlético de Madrid</item>
+        <item>Betis</item>
+        <item>Sevilla</item>
+    </string-array>
+
+
+</resources>
