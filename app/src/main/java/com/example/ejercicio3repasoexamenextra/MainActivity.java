@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
                                 adapter.notifyDataSetChanged();
                             }
                         }else{
-                            Toast.makeText(MainActivity.this, "FALTAN DATOS", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "VENTANA CANCELADA", Toast.LENGTH_SHORT).show();
                         }
                     }
                 }

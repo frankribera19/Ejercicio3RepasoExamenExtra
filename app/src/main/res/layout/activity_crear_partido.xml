@@ -4,12 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2EE8D9"
     android:orientation="vertical"
     tools:context=".CrearPartidoActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="CREADOR DE PRTIDOS"
+        android:textAlignment="center"
+        android:textColor="#EF0B0B"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#2EE8D9"
+        android:backgroundTint="#2EE8D9"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -17,6 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:layout_weight="1"
+            android:background="#FFFEFE"
+            android:backgroundTint="#2EE8D9"
             android:orientation="vertical">
 
             <TextView
@@ -39,7 +56,10 @@
                 android:id="@+id/txtGolesLocalCrearPartidoActivity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
                 android:ems="10"
                 android:hint="@string/goles"
                 android:inputType="number"
@@ -52,6 +72,8 @@
             android:layout_height="match_parent"
             android:layout_margin="20dp"
             android:layout_weight="1"
+            android:background="#2EE8D9"
+            android:backgroundTint="#2EE8D9"
             android:orientation="vertical">
 
             <TextView
@@ -74,7 +96,10 @@
                 android:id="@+id/txtGolesVisitanteCrearPartidoActivity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
                 android:ems="10"
                 android:hint="@string/goles"
                 android:inputType="number"
@@ -86,7 +111,10 @@
         android:id="@+id/txtResumenCrearPartidoActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:ems="10"
         android:hint="@string/resumen"
         android:inputType="textPersonName"
@@ -95,6 +123,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
         android:layout_margin="20dp"
         android:orientation="horizontal">
 
